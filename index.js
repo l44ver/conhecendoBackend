@@ -43,6 +43,11 @@ http.get('/ping', function (request, reply) { return __awaiter(void 0, void 0, v
         return [2 /*return*/, "pong"];
     });
 }); });
+http.get("/gatos_fofos", function (request, reply) { return __awaiter(void 0, void 0, void 0, function () {
+    return __generator(this, function (_a) {
+        return [2 /*return*/];
+    });
+}); });
 http.listen({ port: 3000 }, function (err, address) {
     if (err) {
         console.error(err);

@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "roda-sem-compilar": "ts-node index.ts",
+    "roda-compilado": "node index.js",
+    "compila": "tsc index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json",
     "start": "node index.js"
